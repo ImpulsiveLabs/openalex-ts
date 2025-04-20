@@ -1,0 +1,38 @@
+{
+  "name": "openalex-ts",
+  "version": "0.0.1",
+  "description": "A TypeScript library for interacting with the OpenAlex API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --runInBand",
+    "test:unit": "jest __tests__/unit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "openalex",
+    "api",
+    "typescript",
+    "research",
+    "scholarly"
+  ],
+  "author": "Vladimir Nitu",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "1.6.0"
+  },
+  "devDependencies": {
+    "@types/jest": "29.5.0",
+    "jest": "29.5.0",
+    "ts-jest": "29.1.0",
+    "typescript": "5.0.0"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImpulsiveLabs/openalex-ts"
+  }
+}
