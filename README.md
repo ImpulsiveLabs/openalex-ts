@@ -1,6 +1,6 @@
 # openalex-ts
 
-![npm](https://img.shields.io/npm/v/openalex-ts) ![License](https://img.shields.io/npm/l/openalex-ts)
+![npm](https://img.shields.io/npm/v/openalex-ts) ![License](https://github.com/ImpulsiveLabs/openalex-ts/blob/main/LICENSE)
 
 **openalex-ts** is a modern, type-safe TypeScript client for the [OpenAlex API](https://docs.openalex.org/), an open catalog of over 250 million interconnected scholarly entities—papers, authors, institutions, and more. Designed for developers seeking precision and reliability, `openalex-ts` offers a fluent, chainable API, robust session management, and seamless TypeScript integration to simplify complex scholarly data queries. From citation network analysis to institutional research trends, `openalex-ts` empowers you to unlock the full potential of OpenAlex with ease and elegance.
 
